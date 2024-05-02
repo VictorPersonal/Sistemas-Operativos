@@ -28,7 +28,7 @@ listaEstudiantes2 = []
 listaEstudiantes3 = []
 contadorF = 0
 contadorM = 0
-
+#Ciclo for
 for estudiante in range(8):
     nombre = input("Ingrese el nombre del estudiante: ").lower()
     edad = int(input("Ingrese la edad del estudiante: "))
@@ -53,7 +53,7 @@ print("Estudiantes que lograron tener notas >= 4.5:")
 for estudiante in listaEstudiantes3:
     print(estudiante.getNombre())
 
-
+#Prints
 print("N° de estudiantes con sexo masculino con nota >= 4.5:", contadorM)
 print("N° de estudiantes con sexo femenino con nota >= 4.5:", contadorF)
 
