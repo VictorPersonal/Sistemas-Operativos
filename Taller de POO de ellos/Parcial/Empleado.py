@@ -1,5 +1,5 @@
 from Usuario import Usuario
-
+#clase empleado
 class Empleado(Usuario):
     def __init__(self, nombre, cedula, sexo, telefono, edad, email, direccion, cargo, departamento):
         Usuario.__init__(self, nombre, cedula, sexo, telefono, edad, email, direccion)
