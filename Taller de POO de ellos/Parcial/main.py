@@ -18,4 +18,4 @@ class Main():
             elif(opcion==5):
                 admin.calcularEdadRecursosHumanos(listaEmpleados)
     main()
-
+#Este es el main del admin
