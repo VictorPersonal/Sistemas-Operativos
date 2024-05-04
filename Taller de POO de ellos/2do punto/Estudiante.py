@@ -40,7 +40,7 @@ for estudiante in range(8):
         listaEstudiantes1.append(estudianteGuardadoEnLista)
     else:
         listaEstudiantes2.append(estudianteGuardadoEnLista)
-    
+
 for estudiante in listaEstudiantes1 + listaEstudiantes2:
     if estudiante.getNota() >= 4.5:
         if estudiante.getSexo() == 'm':
